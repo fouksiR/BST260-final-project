@@ -3,9 +3,7 @@ title: Deploying a ML model to predict Fertility outcomes in patient undergoing 
   banking A national SART database
 author: "Rstudioyf"
 date: "2022-12-01"
-output:
-  html_document: default
-  pdf_document: default
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
