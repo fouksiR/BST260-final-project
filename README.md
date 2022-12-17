@@ -1393,6 +1393,10 @@ hist(treesize(rf),
      col = "green")
 ```
 
+![unnamed-chunk-39-1](https://user-images.githubusercontent.com/109326655/208215625-e9e9be85-92c4-4ae0-b8aa-ea6447618fcd.png)
+![unnamed-chunk-39-3](https://user-images.githubusercontent.com/109326655/208215629-ab7c1d2b-9dda-44aa-808d-20841f2d143b.png)
+![unnamed-chunk-39-5](https://user-images.githubusercontent.com/109326655/208215634-55dfedcc-7bf1-4dfb-815a-9e0f9a4c5cc4.png)
+![unnamed-chunk-40-1](https://user-images.githubusercontent.com/109326655/208215637-d7982c37-3513-44bb-b89e-8d1bef238659.png)
 ![](Final-project-260-recepie_files/figure-gfm/unnamed-chunk-39-3.png)<!-- -->
 
 ``` r
@@ -1676,6 +1680,9 @@ mean(predicted.classes == observed.classes)
 ``` r
 cv.lasso$lambda.min
 ```
+
+
+![unnamed-chunk-49-1](https://user-images.githubusercontent.com/109326655/208215722-e5d37c44-211c-424d-b5a1-6cc5efef934e.png)
 
     ## [1] 0.004069824
 
@@ -2101,6 +2108,12 @@ roc.test(roccurve.st.tr, roccurve.st.ts, alternative="two.sided")
 plot(roccurve.st.tr, legacy.axes=T, col="blue"); plot(roccurve.st.ts, legacy.axes=T, col="red", add=T) 
 legend("bottomright", legend=c("AUC (Model A): 0.66", "AUC (Model B):  0.66"), col=c("blue", "red"), lty=1:1, cex=0.3)
 ```
+
+![unnamed-chunk-62-1](https://user-images.githubusercontent.com/109326655/208215776-98cd99e9-f90f-4b5c-9a96-cf110087b4e5.png)
+![unnamed-chunk-66-3](https://user-images.githubusercontent.com/109326655/208215777-d1ce4f71-0eb8-477e-afae-b78b554ff429.png)
+![unnamed-chunk-60-1](https://user-images.githubusercontent.com/109326655/208215779-2ae15efc-6b82-4720-a882-cf3137927fb4.png)
+![unnamed-chunk-60-3](https://user-images.githubusercontent.com/109326655/208215780-24aff42a-52c5-4f04-8b8b-63f1743b1890.png)
+
 
 ![](Final-project-260-recepie_files/figure-gfm/unnamed-chunk-66-3.png)<!-- -->
 
