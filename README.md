@@ -584,7 +584,9 @@ for(i in procNames$col){
  impute_df_info[i] <- impute_df_info[i]*preProcValues$std[i]+preProcValues$mean[i] 
 }
 ```
-
+![unnamed-chunk-24-2](https://user-images.githubusercontent.com/109326655/208215414-d8dec27f-440e-4950-8d62-350a8b0c6fba.png)
+![unnamed-chunk-24-3](https://user-images.githubusercontent.com/109326655/208215415-4979c33b-208f-42f6-9410-485b14c3e8d6.png)
+![unnamed-chunk-24-1](https://user-images.githubusercontent.com/109326655/208215417-e1beb5c0-fc63-4411-a480-59a2b19d72d1.png)
 ``` r
 df <- impute_df_info
 pct_miss(df)
