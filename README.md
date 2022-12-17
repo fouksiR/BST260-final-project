@@ -629,7 +629,7 @@ library(PerformanceAnalytics)
 df.numeric <- df %>% dplyr::select(where(is.numeric))
 chart.Correlation(df.numeric, histogram=TRUE, pch="+")
 ```
-
+![unnamed-chunk-27-1](https://user-images.githubusercontent.com/109326655/208215560-439d2dfe-a209-4ef0-918b-b72170d21832.png)
 ![](Final-project-260-recepie_files/figure-gfm/unnamed-chunk-27-1.png)<!-- -->
 
 Model selection: I used logistic regressions as a bassline comparative
